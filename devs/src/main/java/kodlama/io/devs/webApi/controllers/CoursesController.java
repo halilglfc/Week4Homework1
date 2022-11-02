@@ -39,7 +39,7 @@ public class CoursesController {
 		courseService.update(course, id);
 	}
 	@GetMapping("/getbyid")
-	public void getById(int id) {
-		courseService.getById(id);
+	public Course getById(int id) {
+		return courseService.getById(id);
 	}
 }

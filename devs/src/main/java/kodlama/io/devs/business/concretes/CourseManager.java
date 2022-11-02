@@ -67,8 +67,9 @@ public class CourseManager implements CourseService{
 
 
 	@Override
-	public void getById(int id) {
-		courseRepository.getById(id);
+	public Course getById(int id) {
+		return courseRepository.getById(id);
+		
 	}
 
 }

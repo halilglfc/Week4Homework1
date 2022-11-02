@@ -9,5 +9,5 @@ public interface CourseService {
 	public void add(Course course) throws Exception;
 	public void delete(int id);
 	public void update(Course course, int id);
-	public void getById(int id);
+	public Course getById(int id);
 }
